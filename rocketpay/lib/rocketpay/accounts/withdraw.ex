@@ -1,7 +1,6 @@
 defmodule Rocketpay.Accounts.Withdraw do
 
   alias Rocketpay.Accounts.Operation
-  alias Rocketpay.Repo
 
   def call(params) do
     params
